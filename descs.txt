@@ -1,7 +1,7 @@
-inner edge 1
-inner edge 1, from "the edge of a bell's sound"
-cd: the edge of a bell's sound
-transformed and aggregated from a sample kindly provided by http://www.mp3.com/musicformobiles
+menons klagen um diotima
+Täglich geh ich heraus, und such ein Anderes immer...
+cd: hölderlin/rimbaud-fragmente
+Menon's laments for Diotima.  "Everyday I go out, always seeking another path..."
 
 konzentrische
 Concentric curves.
@@ -10,26 +10,16 @@ cd: vk 1913
 05:23-08:24 - set II/intermission
 08:24-17:03 - set III
 
-menons klagen um diotima
-Täglich geh ich heraus, und such ein Anderes immer...
-cd: hölderlin/rimbaud-fragmente
-Menon's laments for Diotima.  "Everyday I go out, always seeking another path..."
+ringen
+Timbral rings and transformations
+cd: vk 1913
+
+inner edge 1
+inner edge 1, from "the edge of a bell's sound"
+cd: the edge of a bell's sound
+transformed and aggregated from a sample kindly provided by http://www.mp3.com/musicformobiles
 
 outer edge 1
 outer edge 1, from "the edge of a bell's sound"
 cd: the edge of a bell's sound
 transformed and aggregated from a sample kindly provided by http://www.mp3.com/musicformobiles
-
-ringen
-Timbral rings and transformations
-cd: vk 1913
-This track contains several superimposed 'rings', each having been generated from actual audio fed through a set of narrow filters tuned to specific frequencies and with specific widths.  The outcome is a new timbre, whose spectral content is a result of the tunings of the filters.
-
-Each ring is affected by different types of processing (mainly reverb, granulation, section-freezing and some pitch-shifting), with time-varying amounts, and this will give prominence to each of the rings in turn over time.
-
-The name of the piece (german for 'rings') derives from the concept of rings (the mental image evoked by the process of timbral transformation) and the fact that some resulting timbres sound like a mild ringing of a filter.
-
-The piece was composed with no prescribed form or length, and could conceivably be extended arbitrarily by using additional rings.
-
-This was the first attempt at using the concept.
-
