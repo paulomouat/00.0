@@ -54,6 +54,9 @@ body
 .set-title
 {
 	font-weight: bold;
+	-border-style: solid;
+	-border-color: black;
+	-border-width: 1px;
 }
 
 .set-title::before
@@ -61,6 +64,11 @@ body
 	content: "◼";
 	float: left;
 	margin-left: -1.25em;
+	height: 1ex;
+	vertical-align: baseline;
+	-border-style: solid;
+	-border-color: black;
+	-border-width: 1px;
 }
 
 .work
@@ -72,16 +80,19 @@ body
 {
 	display: table-cell;
 	margin-right: 1em;
-	width: 18em;
+	-border-style: solid;
+	-border-color: black;
+	-border-width: 1px;
 }
 
 .work-length
 {
 	display: table-cell;
 	font-size: 80%;
-	width: 5em;
-	margin-right: 1em;
 	text-align: right;
+	-border-style: solid;
+	-border-color: black;
+	-border-width: 1px;
 }
 
 .player
@@ -89,4 +100,7 @@ body
 	display: table-cell;
 	padding-left: 1em;
 	width: 1em;
+	-border-style: solid;
+	-border-color: black;
+	-border-width: 1px;
 }
