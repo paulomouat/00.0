@@ -21,14 +21,72 @@ body
 	scrollbar-shadow-color : #ffffff;
 	font-family : 'Lato', sans-serif;
 	font-size : 12px;
-    margin: 0px 0px 0px 0px;
     background: #FFF; 
-    background-image: url(background.jpg);
-    background-repeat: no-repeat;
 }
 
-td
+.content
 {
-	font-family : 'Lato, sans-serif;
-	font-size : 12px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.art
+{
+	margin: 1em auto;
+	width: 25em;
+}
+
+.main-title
+{
+	font-weight: bold;
+	width: 25em;
+	margin: 1em auto;
+}
+
+.set
+{
+	display: table;
+	width: 25em;
+	margin: 1em auto;
+}
+
+.set-title
+{
+	font-weight: bold;
+}
+
+.set-title::before
+{
+	content: "◼";
+	float: left;
+	margin-left: -1.25em;
+}
+
+.work
+{
+	display: table-row-group;
+}
+
+.work-title
+{
+	display: table-cell;
+	margin-right: 1em;
+	width: 18em;
+}
+
+.work-length
+{
+	display: table-cell;
+	font-size: 80%;
+	width: 5em;
+	margin-right: 1em;
+	text-align: right;
+}
+
+.player
+{
+	display: table-cell;
+	padding-left: 1em;
+	width: 1em;
 }
