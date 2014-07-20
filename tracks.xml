@@ -1,0 +1,30 @@
+<tracks>
+  <track title="Menons Klagen um Diotima" subtitle="">
+    <authors>
+      <author name="0010"/>
+    </authors>
+    <album reftype="">
+      <name>Holderlin/Rimbaud-Fragmente</name>
+    </album>
+    <date>2002</date>
+    <notes>
+      <text>Composed using the computer</text>
+      <file type="filesystem">/home2/dmethods/www/interdisciplina/text.txt</file>
+      <picture type="filesystem">/home2/dmethods/www/interdisciplina/pic.jpg</picture>
+    </notes>
+  </track>
+  <track title="Systemata 1" subtitle="Seuils d'Isolement">
+    <authors>
+      <author name="Minimal Lisboa"/>
+    </authors>
+    <album reftype="">
+      <name>Systemata</name>
+    </album>
+    <date>1992</date>
+    <notes>
+      <text>Composed using the computer</text>
+      <file type="filesystem">/home2/dmethods/www/interdisciplina/text.txt</file>
+      <picture type="filesystem">/home2/dmethods/www/interdisciplina/pic.jpg</picture>
+    </notes>
+  </track>
+</tracks>
