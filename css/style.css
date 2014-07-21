@@ -59,13 +59,15 @@ body
 	-border-width: 1px;
 }
 
-.set-title::before
+.set-title:before
 {
-	content: "◼";
-	float: left;
-	margin-left: -1.25em;
+	content: "";
+	display: inline-block;
+	background: url("../image/square.png") no-repeat top left;
+	width: 1ex;
 	height: 1ex;
-	vertical-align: baseline;
+	margin-left: -1.8ex;
+	margin-right: 0.8ex;
 	-border-style: solid;
 	-border-color: black;
 	-border-width: 1px;
