@@ -97,6 +97,31 @@ body
 	-border-width: 1px;
 }
 
+.work-part
+{
+	display: table-row-group;
+}
+
+.work-part-title
+{
+	display: table-cell;
+	padding-left: 1em;
+	margin-right: 1em;
+	-border-style: solid;
+	-border-color: black;
+	-border-width: 1px;
+}
+
+.work-part-length
+{
+	display: table-cell;
+	font-size: 75%;
+	text-align: right;
+	-border-style: solid;
+	-border-color: black;
+	-border-width: 1px;
+}
+
 .player
 {
 	display: table-cell;
