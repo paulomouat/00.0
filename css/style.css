@@ -24,30 +24,46 @@ body
     background: #FFF; 
 }
 
+.header
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 58em;
+	display: table;
+}
+
 .content
 {
 	margin-left: auto;
 	margin-right: auto;
-	width: 50%;
+	display: table;
+}
+
+.column
+{
+	padding-left: 4em;
+	padding-right: 4em;
+	width: 25em;
+	display: table-cell;
 }
 
 .art
 {
 	margin: 1em auto;
-	width: 25em;
+	width: 100%;
 }
 
 .main-title
 {
 	font-weight: bold;
-	width: 25em;
+	width: 100%;
 	margin: 1em auto;
 }
 
 .set
 {
 	display: table;
-	width: 25em;
+	width: 100%;
 	margin: 1em auto;
 }
 
@@ -75,7 +91,7 @@ body
 
 .work
 {
-	display: table-row-group;
+	display: table-row;
 }
 
 .work-title
