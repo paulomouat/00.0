@@ -5,14 +5,16 @@
 	<meta charset="utf-8"/>
 	<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'/>
 	<link rel="stylesheet" type="text/css" href="css/style.css"/>
-	<link rel="stylesheet" type="text/css" href="css/mp3-player-button.css"/>
+	<link rel="stylesheet" type="text/css" href="css/page-player.css"/>
+	<link rel="stylesheet" type="text/css" href="css/flashblock.css"/>
 	<script src="script/jquery-1.11.1.min.js"></script>
 	<script type="text/javascript" src="script/soundmanager2-nodebug-jsmin.js"></script>
-	<script type="text/javascript" src="script/mp3-player-button.js"></script>
+	<script type="text/javascript" src="script/page-player.js"></script>
 	<script>
 		soundManager.setup({
   			// required: path to directory containing SM2 SWF files
-			url: 'swf/'
+			url: 'swf/',
+			html5PollingInterval: 50
 		});
 	</script>
 </head>
@@ -29,90 +31,112 @@
 				<div class="set">
 				<div class="set-title">hölderlin-rimbaud fragmente</div>
 				<div class="work">
-					<div class="work-title">menons klagen um diotima&nbsp;(parts I &amp; II)</div><!-- 2003 -->
+					<ul class="playlist">
+						<li>
+							<a href="../tracks/menons klagen um diotima.mp3" class="work-title">menons klagen um diotima&nbsp;(parts I &amp; II)</a>
+						</li>
+					</ul>
+					<!-- 2003 -->
 					<div class="work-length">22:00</div>
-					<div class="player">
-						<a href="../tracks/menons klagen um diotima.mp3" class="sm2_button">menons klagen um diotima&nbsp;(parts I &amp; II)</a>
-					</div>
 				</div>
 				<div class="work">
-					<div class="work-title">hypotyposes saturniennes</div><!-- 2004-2015 -->
+					<ul class="playlist">
+						<li>
+							<a href="../tracks/hypotyposes saturniennes.mp3" class="work-title">hypotyposes saturniennes</a>
+						</li>
+					</ul>
+					<!-- 2004-2015 -->
 					<div class="work-length">36:00</div>
-					<div class="player">
-						<a href="../tracks/hypotyposes saturniennes.mp3" class="sm2_button">hypotyposes saturniennes</a>
-					</div>
 				</div>
 			</div>
 				<div class="set">
 				<div class="set-title">vk 1913</div>
 				<div class="work">
-					<div class="work-title">quadrate</div>
+					<ul class="playlist">
+						<li>
+							<div class="work-title">quadrate</div>
+						</li>
+					</ul>
 					<div class="work-length">~40:00</div>
-					<div class="player">
-					</div>
 				</div>
 				<div class="work">
-					<div class="work-title">konzentrische&nbsp;(sets I-III)</div><!-- 2003 -->
+					<ul class="playlist">
+						<li>
+							<a href="../tracks/konzentrische.mp3" class="work-title">konzentrische</a>
+						</li>
+					</ul>
+					<!-- 2003 -->
 					<div class="work-length">17:00</div>
-					<div class="player">
-						<a href="../tracks/konzentrische.mp3" class="sm2_button">konzentrische</a>
-					</div>
 				</div>
 				<div class="work">
-					<div class="work-title">ringen</div><!-- 2001 -->
+					<ul class="playlist">
+						<li>
+							<a href="../tracks/ringen.mp3" class="work-title">ringen</a>
+						</li>
+					</ul>
+					<!-- 2001 -->
 					<div class="work-length">7:00</div>
-					<div class="player">
-						<a href="../tracks/ringen.mp3" class="sm2_button">ringen</a>
-					</div>
 				</div>
 			</div>
 				<div class="set">
 				<div class="set-title">the edge of a bell's sound</div>
 				<div class="work">
-					<div class="work-title">inner edge 1</div><!-- 2002 -->
+					<ul class="playlist">
+						<li>
+							<a href="../tracks/inner edge 1.mp3" class="work-title">inner edge 1</a>
+						</li>
+					</ul>
+					<!-- 2002 -->
 					<div class="work-length">10:00</div>
-					<div class="player">
-						<a href="../tracks/inner edge 1.mp3" class="sm2_button">inner edge 1</a>
-					</div>
 				</div>
 				<div class="work">
-					<div class="work-title">outer edge 1</div><!-- 2002 -->
+					<ul class="playlist">
+						<li>
+							<a href="../tracks/outer edge 1.mp3" class="work-title">outer edge 1</a>
+						</li>
+					</ul>
+					<!-- 2002 -->
 					<div class="work-length">4:00</div>
-					<div class="player">
-						<a href="../tracks/outer edge 1.mp3" class="sm2_button">outer edge 1</a>
-					</div>
 				</div>
 			</div>
 				<div class="set">
 				<div class="set-title">i am the sea</div>
 				<div class="work">
-					<div class="work-title">i am the sea; hark, how her sighs do blow</div>
+					<ul class="playlist">
+						<li>
+							<div class="work-title">i am the sea; hark, how her sighs do blow</div>
+						</li>
+					</ul>
 					<div class="work-length">~70:00</div>
-					<div class="player">
-					</div>
 				</div>
 			</div>
 				<div class="set">
 				<div class="set-title">c. m. - elegies</div>
 				<div class="work">
-					<div class="work-title">a loose and rorid vapour</div><!-- 2014 -->
+					<ul class="playlist">
+						<li>
+							<a href="../tracks/a loose and rorid vapour.mp3" class="work-title">a loose and rorid vapour</a>
+						</li>
+					</ul>
+					<!-- 2014 -->
 					<div class="work-length">17:00</div>
-					<div class="player">
-						<a href="../tracks/a loose and rorid vapour.mp3" class="sm2_button">a loose and rorid vapour</a>
-					</div>
 				</div>
 				<div class="work">
-					<div class="work-title">if on the marble theatre i look</div>
+					<ul class="playlist">
+						<li>
+							<div class="work-title">if on the marble theatre i look</div>
+						</li>
+					</ul>
 					<div class="work-length"></div>
-					<div class="player">
-					</div>
 				</div>
 				<div class="work">
-					<div class="work-title">the ocean hath no painted stones or shells</div><!-- 2014 -->
+					<ul class="playlist">
+						<li>
+							<a href="../tracks/the ocean hath no painted stones or shells.mp3" class="work-title">the ocean hath no painted stones or shells</a>
+						</li>
+					</ul>
+					<!-- 2014 -->
 					<div class="work-length">11:00</div>
-					<div class="player">
-						<a href="../tracks/the ocean hath no painted stones or shells.mp3" class="sm2_button">the ocean hath no painted stones or shells</a>
-					</div>
 				</div>
 			</div>
 			</div>
@@ -120,165 +144,198 @@
 				<div class="set">
 				<div class="set-title">loose leaves and other unbound incunabula</div>
 				<div class="work">
-					<div class="work-title">all my petals fell to the ground</div><!-- 2014 -->
+					<ul class="playlist">
+						<li>
+							<a href="../tracks/all my petals fell to the ground.mp3" class="work-title">all my petals fell to the ground</a>
+						</li>
+					</ul>
+					<!-- 2014 -->
 					<div class="work-length">23:00</div>
-					<div class="player">
-						<a href="../tracks/all my petals fell to the ground.mp3" class="sm2_button">all my petals fell to the ground</a>
-					</div>
 				</div>
 				<div class="work">
-					<div class="work-title">scintilla nella notte</div><!-- 2014 -->
+					<ul class="playlist">
+						<li>
+							<a href="../tracks/scintilla nella notte.mp3" class="work-title">scintilla nella notte</a>
+						</li>
+					</ul>
+					<!-- 2014 -->
 					<div class="work-length">5:00</div>
-					<div class="player">
-						<a href="../tracks/scintilla nella notte.mp3" class="sm2_button">scintilla nella notte</a>
-					</div>
 				</div>
 				<div class="work">
-					<div class="work-title">c24</div><!-- 2016 -->
+					<ul class="playlist">
+						<li>
+							<a href="../tracks/c24.mp3" class="work-title">c24</a>
+						</li>
+					</ul>
+					<!-- 2016 -->
 					<div class="work-length">13:00</div>
-					<div class="player">
-						<a href="../tracks/c24.mp3" class="sm2_button">c24</a>
-					</div>
 				</div>
 				<div class="work">
-					<div class="work-title">k26</div><!-- 2015 -->
+					<ul class="playlist">
+						<li>
+							<a href="../tracks/k26.mp3" class="work-title">k26</a>
+						</li>
+					</ul>
+					<!-- 2015 -->
 					<div class="work-length">7:00</div>
-					<div class="player">
-						<a href="../tracks/k26.mp3" class="sm2_button">k26</a>
-					</div>
 				</div>
 				<div class="work">
-					<div class="work-title">o31</div><!-- 2015 -->
+					<ul class="playlist">
+						<li>
+							<a href="../tracks/o31.mp3" class="work-title">o31</a>
+						</li>
+					</ul>
+					<!-- 2015 -->
 					<div class="work-length">17:00</div>
-					<div class="player">
-						<a href="../tracks/o31.mp3" class="sm2_button">o31</a>
-					</div>
 				</div>
 				<div class="work">
-					<div class="work-title">o32</div><!-- 2015 -->
+					<ul class="playlist">
+						<li>
+							<a href="../tracks/o32.mp3" class="work-title">o32</a>
+						</li>
+					</ul>
+					<!-- 2015 -->
 					<div class="work-length">15:00</div>
-					<div class="player">
-						<a href="../tracks/o32.mp3" class="sm2_button">o32</a>
-					</div>
 				</div>
 				<div class="work">
-					<div class="work-title">o34</div><!-- 2015 -->
+					<ul class="playlist">
+						<li>
+							<a href="../tracks/o34.mp3" class="work-title">o34</a>
+						</li>
+					</ul>
+					<!-- 2015 -->
 					<div class="work-length">5:00</div>
-					<div class="player">
-						<a href="../tracks/o34.mp3" class="sm2_button">o34</a>
-					</div>
 				</div>
 				<div class="work">
-					<div class="work-title">o34 part 2</div><!-- 2015 -->
+					<ul class="playlist">
+						<li>
+							<a href="../tracks/o34 part 2.mp3" class="work-title">o34 part 2</a>
+						</li>
+					</ul>
+					<!-- 2015 -->
 					<div class="work-length">4:00</div>
-					<div class="player">
-						<a href="../tracks/o34 part 2.mp3" class="sm2_button">o34 part 2</a>
-					</div>
 				</div>
 				<div class="work">
-					<div class="work-title">dämmerschein-orchestersuite (coda)</div><!-- 1995 -->
+					<ul class="playlist">
+						<li>
+							<a href="../tracks/dammerschein-coda.mp3" class="work-title">dämmerschein-orchestersuite (coda)</a>
+						</li>
+					</ul>
+					<!-- 1995 -->
 					<div class="work-length">1:13</div>
-					<div class="player">
-						<a href="../tracks/dammerschein-coda.mp3" class="sm2_button">dämmerschein-orchestersuite (coda)</a>
-					</div>
 				</div>
 			</div>
 				<div class="set">
 				<div class="set-title">minimal-lisboa</div>
 				<div class="work">
-					<div class="work-title">8-7-6-5</div><!-- 2004 -->
+					<ul class="playlist">
+						<li>
+							<a href="../tracks/8-7-6-5.mp3" class="work-title">8-7-6-5</a>
+						</li>
+					</ul>
+					<!-- 2004 -->
 					<div class="work-length">15:00</div>
-					<div class="player">
-						<a href="../tracks/8-7-6-5.mp3" class="sm2_button">8-7-6-5</a>
-					</div>
 				</div>
 				<div class="work">
-					<div class="work-title">systemata - seuils</div><!-- 1992 -->
+					<div class="work-title">systemata - seuils</div>
+					<!-- 1992 -->
 					<div class="work-length">14:30</div>
 				</div>
 				<div class="work-part">
-					<div class="work-part-title">part 1</div>
+					<ul class="playlist">
+						<li>
+							<a href="../tracks/systemata-seuils-part-1.mp3" class="work-part-title">part 1</a>
+						</li>
+					</ul>
 					<div class="work-part-length">3:57</div>
-					<div class="player">
-						<a href="../tracks/systemata-seuils-part-1.mp3" class="sm2_button">systemata seuils part 1</a>
-					</div>
 				</div>
 				<div class="work-part">
-					<div class="work-part-title">part 2</div>
+					<ul class="playlist">
+						<li>
+							<a href="../tracks/systemata-seuils-part-2.mp3" class="work-part-title">part 2</a>
+						</li>
+					</ul>
 					<div class="work-part-length">3:37</div>
-					<div class="player">
-						<a href="../tracks/systemata-seuils-part-2.mp3" class="sm2_button">systemata seuils part 2</a>
-					</div>
 				</div>
 				<div class="work-part">
-					<div class="work-part-title">part 3</div>
+					<ul class="playlist">
+						<li>
+							<a href="../tracks/systemata-seuils-part-3.mp3" class="work-part-title">part 3</a>
+						</li>
+					</ul>
 					<div class="work-part-length">3:30</div>
-					<div class="player">
-						<a href="../tracks/systemata-seuils-part-3.mp3" class="sm2_button">systemata seuils part 3</a>
-					</div>
 				</div>
 				<div class="work-part">
-					<div class="work-part-title">part 4</div>
+					<ul class="playlist">
+						<li>
+							<a href="../tracks/systemata-seuils-part-4.mp3" class="work-part-title">part 4</a>
+						</li>
+					</ul>
 					<div class="work-part-length">3:22</div>
-					<div class="player">
-						<a href="../tracks/systemata-seuils-part-4.mp3" class="sm2_button">systemata seuils part 4</a>
-					</div>
 				</div>
 			</div>
 				<div class="set">
 				<div class="set-title">études en probabilités</div>
 				<div class="work">
-					<div class="work-title">les causes probables</div><!-- 1994 -->
+					<div class="work-title">les causes probables</div>
+					<!-- 1994 -->
 					<div class="work-length">15:30</div>
 				</div>
 				<div class="work-part">
-					<div class="work-part-title">I</div>
+					<ul class="playlist">
+						<li>
+							<a href="../tracks/les-causes-probables-1.mp3" class="work-part-title">I</a>
+						</li>
+					</ul>
 					<div class="work-part-length">1:23</div>
-					<div class="player">
-						<a href="../tracks/les-causes-probables-1.mp3" class="sm2_button">les causes probables I</a>
-					</div>
 				</div>
 				<div class="work-part">
-					<div class="work-part-title">II</div>
+					<ul class="playlist">
+						<li>
+							<a href="../tracks/les-causes-probables-2.mp3" class="work-part-title">II</a>
+						</li>
+					</ul>
 					<div class="work-part-length">3:10</div>
-					<div class="player">
-						<a href="../tracks/les-causes-probables-2.mp3" class="sm2_button">les causes probables II</a>
-					</div>
 				</div>
 				<div class="work-part">
-					<div class="work-part-title">III</div>
+					<ul class="playlist">
+						<li>
+							<a href="../tracks/les-causes-probables-3.mp3" class="work-part-title">III</a>
+						</li>
+					</ul>
 					<div class="work-part-length">1:52</div>
-					<div class="player">
-						<a href="../tracks/les-causes-probables-3.mp3" class="sm2_button">les causes probables III</a>
-					</div>
 				</div>
 				<div class="work-part">
-					<div class="work-part-title">IV</div>
+					<ul class="playlist">
+						<li>
+							<a href="../tracks/les-causes-probables-4.mp3" class="work-part-title">IV</a>
+						</li>
+					</ul>
 					<div class="work-part-length">1:41</div>
-					<div class="player">
-						<a href="../tracks/les-causes-probables-4.mp3" class="sm2_button">les causes probables IV</a>
-					</div>
 				</div>
 				<div class="work-part">
-					<div class="work-part-title">V</div>
+					<ul class="playlist">
+						<li>
+							<a href="../tracks/les-causes-probables-5.mp3" class="work-part-title">V</a>
+						</li>
+					</ul>
 					<div class="work-part-length">1:40</div>
-					<div class="player">
-						<a href="../tracks/les-causes-probables-5.mp3" class="sm2_button">les causes probables V</a>
-					</div>
 				</div>
 				<div class="work-part">
-					<div class="work-part-title">VI</div>
+					<ul class="playlist">
+						<li>
+							<a href="../tracks/les-causes-probables-6.mp3" class="work-part-title">VI</a>
+						</li>
+					</ul>
 					<div class="work-part-length">4:54</div>
-					<div class="player">
-						<a href="../tracks/les-causes-probables-6.mp3" class="sm2_button">les causes probables VI</a>
-					</div>
 				</div>
 				<div class="work-part">
-					<div class="work-part-title">VII</div>
+					<ul class="playlist">
+						<li>
+							<a href="../tracks/les-causes-probables-7.mp3" class="work-part-title">VII</a>
+						</li>
+					</ul>
 					<div class="work-part-length">0:50</div>
-					<div class="player">
-						<a href="../tracks/les-causes-probables-7.mp3" class="sm2_button">les causes probables VII</a>
-					</div>
 				</div>
 			</div>
 			</div>

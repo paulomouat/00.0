@@ -121,7 +121,8 @@ body
 .work-part-title
 {
 	display: table-cell;
-	padding-left: 1em;
+	font-size: 85%;
+	/*padding-left: 1em;*/
 	margin-right: 1em;
 	-border-style: solid;
 	-border-color: black;
