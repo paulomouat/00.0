@@ -69,6 +69,7 @@ body
 
 .set-title
 {
+	margin-bottom: 0.1em;
 	font-weight: bold;
 	-border-style: solid;
 	-border-color: black;
@@ -97,6 +98,8 @@ body
 .work-title
 {
 	display: table-cell;
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
 	margin-right: 1em;
 	-border-style: solid;
 	-border-color: black;
@@ -121,8 +124,10 @@ body
 .work-part-title
 {
 	display: table-cell;
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
 	font-size: 85%;
-	/*padding-left: 1em;*/
+	padding-left: 0.5em;
 	margin-right: 1em;
 	-border-style: solid;
 	-border-color: black;
